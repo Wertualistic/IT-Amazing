@@ -1,0 +1,78 @@
+.header{
+    height: 84vh;
+    background-color: #0146A1;
+    color: white;
+}
+
+.header h1{
+    line-height: 70px;
+    padding-top: 80px;
+    color: white;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header .right-side img{
+    position: absolute;
+    right: 100px;
+    top: 250px;
+}
+
+.header .right-side .img1{
+    right: 230px;
+    animation: animation 1s alternate infinite;
+}
+
+.header .right-side .img2{
+    right: 50px;
+    top: 500px;
+    animation: img2 1s alternate infinite;
+}
+
+.header .right-side .img3{
+    z-index: 99;
+    animation: img2 1s alternate infinite;
+}
+
+.header .right-side .img4{
+    top: 500px;
+    right: 50px;
+    z-index: 999;
+    animation: img2 1s alternate infinite;
+}
+
+.header .right-side .img5{
+    animation: img5 1s alternate infinite;
+}
+
+.header .right-side .img6{
+    right: 30px;
+    animation: img5 1s alternate infinite;
+}
+
+@keyframes animation {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes img2 {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-60px);
+    }
+}
+
+@keyframes img5 {
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-60px);
+    }
+}
