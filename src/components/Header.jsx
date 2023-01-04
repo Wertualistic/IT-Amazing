@@ -14,13 +14,12 @@ function Header() {
       <div className="container d-flex justify-content-between align-items-center">
         <div className="left-side col-md-6 d-flex flex-column">
           <h1 className="white">
-            Biznesingiz uchun Web Site, Sotuvchi Site va Telegram Bot
-            tayyorlaymiz
+            Biznesingiz rivoji uchun biz <br /> xizmat qilamiz !
           </h1>
           <h5 className="pt-3">
-          Web Site - Lorem ipsum dolor sit amet consectetur. Integer et arcu adipiscing sapien facilisi varius aliquet lacus. 
+            Bizda Website , mobile ilova , telegram bot va barcha online xizmatlar mavjud!  
           </h5>
-          <div className="btns d-flex gap-5 pt-5 mt-5">
+          <div className="btns d-flex gap-5 pt-5">
             <Link to='/portfolio' className="btn btn-warning text-white">
                 Portfolio    <i class="ri-arrow-right-line"></i>
             </Link>
