@@ -2,29 +2,35 @@
     height: 84vh;
     background-color: #0146A1;
     color: white;
+    padding: 0 5rem;
 }
 
 .header h1{
-    line-height: 70px;
+    font-size: 72px;
     padding-top: 80px;
     color: white;
     font-weight: 700;
     font-style: normal;
 }
+.header h5{
+    font-size: 23px;
+    opacity: 0.7;
+}
 
 .header .right-side img{
     position: absolute;
-    right: 100px;
+    right: 14rem;
     top: 250px;
 }
 
 .header .right-side .img1{
-    right: 230px;
+    right: 14rem;
+    top: 200px;
     animation: animation 1s alternate infinite;
 }
 
 .header .right-side .img2{
-    right: 50px;
+    right: 8rem;
     top: 500px;
     animation: img2 1s alternate infinite;
 }
@@ -36,7 +42,7 @@
 
 .header .right-side .img4{
     top: 500px;
-    right: 50px;
+    right: 9rem;
     z-index: 999;
     animation: img2 1s alternate infinite;
 }
@@ -46,7 +52,7 @@
 }
 
 .header .right-side .img6{
-    right: 30px;
+    right: 10rem;
     animation: img5 1s alternate infinite;
 }
 
