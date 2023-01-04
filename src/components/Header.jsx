@@ -24,7 +24,7 @@ function Header() {
                 Portfolio    <i class="ri-arrow-right-line"></i>
             </Link>
             <Link to='/works' className="btn text-white" style={{background: '#002C65'}}>
-                Xizmat turlarii    <i class="ri-arrow-right-line"></i>
+                Xizmat turlari    <i class="ri-arrow-right-line"></i>
             </Link>
           </div>
         </div>
