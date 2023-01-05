@@ -1,0 +1,8 @@
+.loader{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../Assets/Infinity-1.4s-237px.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F1F2F3;
+}
