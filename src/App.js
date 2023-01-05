@@ -1,17 +1,22 @@
 import './App.css';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Products from './components/Products';
-import Indicators from './components/Indicators';
+import { useEffect, useState } from 'react';
+import Loader from './components/Loader';
+import App2 from './components/App2';
 
 function App() {
+
+  const [isLoading , SetLoading] = useState(false);
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      SetLoading(true)
+    },2000)
+  },[])
+
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Indicators />
-      <Products />
-    </div>
+    <>
+      {isLoading ? <App2 />  : <Loader />}
+    </>
   );
 }
 
