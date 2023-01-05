@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img from '../Assets/pexels-tranmautritam-326503 1.png'
-import web from '../Assets/Group 221.png'
+import img from '../Assets/pexels-tranmautritam-326503 1.svg'
+import web from '../Assets/Group 221.svg'
 import './Styles/Products.css'
 
 function Products() {

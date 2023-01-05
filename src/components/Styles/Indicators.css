@@ -1,0 +1,56 @@
+.indicators h1{
+    font-weight: 700;
+}
+
+.indicators .cards span{
+    font-size: 60px;
+    padding-bottom: 15px;
+    font-weight: 100;
+    color: #C4C4C4;
+}
+
+.indicators .cards{
+    gap: 80px !important;
+}
+
+.indicators .cards h1{
+    font-size: 64px;
+}
+
+.content{
+    padding-top: 100px;
+}
+
+.main img{
+    width: 330px;
+    padding: 10px;
+    height: 330px;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+}
+  
+  .circle{
+    width:30px;
+    height:30px;
+    background:cyan;
+    border-radius:50%;
+    position: relative;
+    top: -180px;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6s linear infinite;
+  }
+  
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-165px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }

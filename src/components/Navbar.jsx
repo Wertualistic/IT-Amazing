@@ -23,7 +23,7 @@ function Navbar() {
             <Link to="/works" className="link-primary text-decoration-none">Xizmatlar</Link>
           </li>
         </div>
-        <div className="content d-flex gap-3 align-items-center">
+        <div className="contend d-flex gap-3 align-items-center">
           <div className="phone link-primary d-flex">
             <i className="ri-phone-line"></i>
             +998 (90) 256-96-62
