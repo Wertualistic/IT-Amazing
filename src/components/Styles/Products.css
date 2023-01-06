@@ -1,48 +1,56 @@
-.Product{
-    padding: 5rem 0;
+.Product {
+  padding: 5rem 0;
 }
-.left h3{
-    font-size: 42px;
-    margin-bottom: 1rem;
+.left h3 {
+  font-size: 42px;
+  margin-bottom: 1rem;
 }
-.left p{
-    margin-top: 1rem;
-    font-size: 23px;
-    font-weight: bold;
-    opacity: 0.8;
+.left p {
+  margin-top: 1rem;
+  font-size: 23px;
+  font-weight: bold;
+  opacity: 0.8;
 }
-.works{
-    padding: 5rem 0;
+.works {
+  padding: 5rem 0;
 }
-.up{
-    background: #FF693A;
-    padding: 0.8rem 1rem;
-    margin-bottom: 0.5rem;
-    border-radius: 0.7rem;
-    color: white;
+.up {
+  background: #ff693a;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.7rem;
+  color: white;
 }
-.card{
-    background: #EEEEFD;
-    border: none;
-    width: 450px;
-    padding: 2rem 1rem;
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+.card {
+  background: #eeeefd;
+  border: none;
+  width: 550px;
+  padding: 2rem 1rem;
 }
-.card h2{
-    font-size: 23px;
+.card2 {
+  background-color: #ebfaf2;
 }
-.more{
-    margin-top: 1rem;
-    padding: 0.4rem 0.8rem;
-    border-radius: 1.2rem;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    width: 120px;
+.card h2 {
+  font-size: 23px;
 }
-.arrow{
-    background: #002C65;
-    color: white;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border-radius: 50%;
+.more {
+  margin-top: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1.2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 120px;
+}
+.arrow {
+  background: #002c65;
+  color: white;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.btn2 {
+  background: #004aac;
+  box-shadow: 0px 6px 26px rgba(27, 26, 26, 0.25);
+  border-radius: 8px;
 }

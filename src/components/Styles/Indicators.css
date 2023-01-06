@@ -1,109 +1,115 @@
-.indicators h1{
-    font-weight: 700;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
+.indicators h1 {
+  font-weight: 700;
 }
 
-.indicators .cards span{
-    font-size: 60px;
-    padding-bottom: 15px;
-    font-weight: 100;
-    color: #C4C4C4;
+.indicators .cards span {
+  font-size: 60px;
+  padding-bottom: 15px;
+  font-weight: 100;
+  color: #c4c4c4;
 }
 
-.indicators .cards{
-    gap: 80px !important;
+.indicators .cards {
+  gap: 80px !important;
 }
 
-.indicators .cards h1{
-    font-size: 64px;
+.indicators .cards h1 {
+  font-size: 64px;
 }
 
-.content{
-    padding-top: 100px;
+.content {
+  padding-top: 100px;
 }
 
-.main .img{
-    width: 495px;
-    padding: 10px;
-    height: 495px;
-    border-radius: 50%;
+.main .img {
+  width: 495px;
+  padding: 10px;
+  height: 495px;
+  border-radius: 50%;
 }
-  
-  .circle{
-    width:30px;
-    height:30px;
-    border: 2px solid #004AAC;
-    border-radius:50%;
-    position: relative;
-    top: -250px;
-    margin:auto;
-    animation: circle 10s linear infinite;
-  }
 
-  .vector{
-    width:70px;
-    height:70px;
-    position: relative;
-    top: -295px;
-    left: 195px;
-    overflow:hidden;
-    margin:auto;
-    animation: circlee 15s linear infinite;
-  }
+.circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #004aac;
+  border-radius: 50%;
+  position: relative;
+  top: -250px;
+  margin: auto;
+  animation: circle 10s linear infinite;
+}
 
-  .vector1{
-    width:30px;
-    height:30px;
-    position: relative;
-    top: -315px;
-    left: 185px;
-    overflow:hidden;
-    margin:auto;
-    animation: circlee 15s linear infinite;
-  }
+.vector {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: -295px;
+  left: 195px;
+  overflow: hidden;
+  margin: auto;
+  animation: circlee 15s linear infinite;
+}
 
-  .aboutt{
-    width: 233px;
-    padding: 0px 20px;
-    height: 34px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 8px rgba(102, 110, 122, 0.19);
-    border-radius: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+.vector1 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -315px;
+  left: 185px;
+  overflow: hidden;
+  margin: auto;
+  animation: circlee 15s linear infinite;
+}
 
-  .aboutt .circ{
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    background: #004AAC;
-  }
-  
-  @keyframes circle{
-    from{
-      transform:rotate(-360deg)
-                translate(-247.5px)
-                rotate(0deg);
-    
-    }
-    to{
-      transform:rotate(360deg)
-                translate(-247.5px)
-                rotate(-360deg);
-    }
-  }
+.aboutt {
+  width: 233px;
+  padding: 0px 20px;
+  height: 34px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(102, 110, 122, 0.19);
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  @keyframes circlee{
-    from{
-      transform:rotate(-360deg)
-                translate(-247.5px)
-                rotate(360deg);
-    
-    }
-    to{
-      transform:rotate(360deg)
-                translate(-247.5px)
-                rotate(-360deg);
-    }
+.aboutt .circ {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #004aac;
+}
+
+@keyframes circle {
+  from {
+    transform: rotate(-360deg) translate(-247.5px) rotate(0deg);
   }
+  to {
+    transform: rotate(360deg) translate(-247.5px) rotate(-360deg);
+  }
+}
+
+@keyframes circlee {
+  from {
+    transform: rotate(-360deg) translate(-247.5px) rotate(360deg);
+  }
+  to {
+    transform: rotate(360deg) translate(-247.5px) rotate(-360deg);
+  }
+}
+
+.indicators .h1 {
+  font-family: "Montserrat";
+  line-height: 60px;
+  color: #30303d;
+  font-weight: 600;
+}
+
+.indicators .button {
+  background: #004aac;
+  box-shadow: 0px 6px 26px rgba(27, 26, 26, 0.25);
+  border-radius: 8px;
+  width: 169px;
+}

@@ -2,27 +2,27 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import img from '../Assets/pexels-tranmautritam-326503 1.svg'
 import web from '../Assets/Group 221.svg'
-import android from '../Assets/Group 220.png'
-import bot from '../Assets/Group 219.png'
+import android from '../Assets/Group 220.svg'
+import bot from '../Assets/Group 219.svg'
 import './Styles/Products.css'
 
 function Products() {
   return (
-    <div className='Product'>
+    <div className='Product container'>
       <center>
         <h1>Xizmatlar</h1>
       </center>
-      <div className="works d-flex align-items-start justify-content-center gap-5">
-      <div className="left">
-        <h3>Biz sizga yordam bera <br /> oladigan xizmat turlari.</h3>
+      <div className="works d-flex align-items-start justify-content-between gap-5">
+      <div className="left col-md-6">
+        <h3>Biz sizga yordam bera oladigan xizmat turlari.</h3>
         <img src={img} alt="" />
         <p>Biz kafolatlaymiz! Siz uchun eng sifatli xizmat <br />
           ko’rsatishga.</p>
-          <Link to='/works' className="btn text-white" style={{background: '#002C65'}}>
+          <Link to='/works' className="btn text-white btn2">
                 Barcha xizmatlarni ko'rish 
           </Link>
       </div>
-      <div className="right d-flex align-items-start gap-3">
+      <div className="right d-flex align-items-start gap-3 col-md-6">
         <div className="arrows">
           <div className="up">
             <i className='ri-arrow-up-line'></i>
@@ -31,7 +31,7 @@ function Products() {
             <i className='ri-arrow-down-line'></i>
           </div>
         </div>
-        <div className="cards d-flex flex-column gap-3">
+        <div className="cards d-flex flex-column gap-3 align-items-start">
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
               <h2>Web <br />
@@ -45,7 +45,7 @@ function Products() {
               Batafsil
             </div>
           </div>
-          <div className="card">
+          <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
               <h2>Mobile App <br />
                 development</h2>
@@ -58,7 +58,7 @@ function Products() {
               Batafsil
             </div>
           </div>
-          <div className="card">
+          <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
               <h2>Telegram <br />
                 bot</h2>
