@@ -21,7 +21,7 @@
     padding-top: 100px;
 }
 
-.main img{
+.main .img{
     width: 330px;
     padding: 10px;
     height: 330px;
@@ -32,23 +32,47 @@
   .circle{
     width:30px;
     height:30px;
-    background:cyan;
+    border: 2px solid #004AAC;
     border-radius:50%;
     position: relative;
     top: -180px;
+    margin:auto;
+    animation: circle 10s linear infinite;
+  }
+
+  .vector{
+    width:70px;
+    height:70px;
+    position: relative;
+    top: -230px;
+    left: 130px;
     overflow:hidden;
     margin:auto;
-    animation: circle 6s linear infinite;
+    animation: circlee 15s linear infinite;
   }
   
   @keyframes circle{
-    0%{
-      transform:rotate(0deg)
+    from{
+      transform:rotate(-360deg)
                 translate(-165px)
                 rotate(0deg);
     
     }
-    100%{
+    to{
+      transform:rotate(360deg)
+                translate(-165px)
+                rotate(-360deg);
+    }
+  }
+
+  @keyframes circlee{
+    from{
+      transform:rotate(-360deg)
+                translate(-165px)
+                rotate(360deg);
+    
+    }
+    to{
       transform:rotate(360deg)
                 translate(-165px)
                 rotate(-360deg);
