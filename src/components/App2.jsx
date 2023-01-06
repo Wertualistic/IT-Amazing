@@ -3,6 +3,7 @@ import Header from './Header'
 import Indicators from './Indicators'
 import Navbar from './Navbar'
 import Products from './Products'
+import Team from './Team'
 
 function App2() {
   return (
@@ -11,6 +12,7 @@ function App2() {
       <Header />
       <Indicators />
       <Products />
+      <Team />
     </div>
   )
 }
