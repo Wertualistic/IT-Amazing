@@ -2,6 +2,7 @@ import React from "react";
 import "./Styles/Indicators.css";
 import img from "../Assets/Mask group.svg";
 import img1 from '../Assets/Vector.svg';
+import img2 from '../Assets/Vector1.svg';
 
 function Indicators() {
   return (
@@ -28,14 +29,17 @@ function Indicators() {
           <p>Xizmat turlari</p>
         </div>
       </div>
-      <div className="content d-flex justify-content-between container">
-          <div className="main">
+      <div className="content d-flex justify-content-center container">
+          <div className="main col-md-6 d-flex">
+            <div className="imgs">
             <img src={img} alt="" className="img"/>
             <div className="circle"></div>
             <img src={img1} alt="" className="vector"/>
+            <img src={img2} alt="" className="vector1"/>
+            </div>
           </div>
-          <div className="right-side">
-            <h1>Hello</h1>
+          <div className="right-side col-md-6 d-flex flex-column justify-content-start align-items-stretch">
+            <h5 className="aboutt"><div className="circ"></div>Biz nima qilamiz<div className="circ"></div></h5>
           </div>
       </div>
     </div>

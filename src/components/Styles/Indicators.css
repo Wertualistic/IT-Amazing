@@ -22,10 +22,9 @@
 }
 
 .main .img{
-    width: 330px;
+    width: 495px;
     padding: 10px;
-    height: 330px;
-    border: 1px solid #C4C4C4;
+    height: 495px;
     border-radius: 50%;
 }
   
@@ -35,7 +34,7 @@
     border: 2px solid #004AAC;
     border-radius:50%;
     position: relative;
-    top: -180px;
+    top: -250px;
     margin:auto;
     animation: circle 10s linear infinite;
   }
@@ -44,23 +43,53 @@
     width:70px;
     height:70px;
     position: relative;
-    top: -230px;
-    left: 130px;
+    top: -295px;
+    left: 195px;
     overflow:hidden;
     margin:auto;
     animation: circlee 15s linear infinite;
+  }
+
+  .vector1{
+    width:30px;
+    height:30px;
+    position: relative;
+    top: -315px;
+    left: 185px;
+    overflow:hidden;
+    margin:auto;
+    animation: circlee 15s linear infinite;
+  }
+
+  .aboutt{
+    width: 233px;
+    padding: 0px 20px;
+    height: 34px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(102, 110, 122, 0.19);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .aboutt .circ{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #004AAC;
   }
   
   @keyframes circle{
     from{
       transform:rotate(-360deg)
-                translate(-165px)
+                translate(-247.5px)
                 rotate(0deg);
     
     }
     to{
       transform:rotate(360deg)
-                translate(-165px)
+                translate(-247.5px)
                 rotate(-360deg);
     }
   }
@@ -68,13 +97,13 @@
   @keyframes circlee{
     from{
       transform:rotate(-360deg)
-                translate(-165px)
+                translate(-247.5px)
                 rotate(360deg);
     
     }
     to{
       transform:rotate(360deg)
-                translate(-165px)
+                translate(-247.5px)
                 rotate(-360deg);
     }
   }
