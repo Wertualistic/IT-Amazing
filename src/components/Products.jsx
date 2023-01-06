@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import img from '../Assets/pexels-tranmautritam-326503 1.svg'
 import web from '../Assets/Group 221.svg'
+import android from '../Assets/Group 220.png'
+import bot from '../Assets/Group 219.png'
 import './Styles/Products.css'
 
 function Products() {
@@ -45,9 +47,9 @@ function Products() {
           </div>
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Web <br />
+              <h2>Mobile App <br />
                 development</h2>
-              <img src={web} alt="" />  
+              <img src={android} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
@@ -58,9 +60,9 @@ function Products() {
           </div>
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Web <br />
-                development</h2>
-              <img src={web} alt="" />  
+              <h2>Telegram <br />
+                bot</h2>
+              <img src={bot} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
