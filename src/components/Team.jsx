@@ -50,7 +50,7 @@ function Team() {
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="imgs">
+        <div className="images">
                 <div className="img">
                     <img
                         className="d-block w-10"
