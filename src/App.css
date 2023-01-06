@@ -1,0 +1,21 @@
+
+.carousel-control-prev{
+    margin-top: 15rem;
+    margin-left: 10rem;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #002C65;
+    color: white;
+}
+.carousel-control-next{
+    margin-top: 15rem;
+    margin-right: 10rem;
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #002C65;
+    color: white;
+}

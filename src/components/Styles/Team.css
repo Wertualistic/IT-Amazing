@@ -1,0 +1,21 @@
+.imgs{
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.imgs img{
+    width: 300px;
+    border-radius: 0.8rem;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.img{
+    text-align: center;
+}
+.img h2{
+    font-size: 20px;
+}
+.img h3{
+    font-size: 16px;
+}
