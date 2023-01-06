@@ -1,6 +1,7 @@
 import React from "react";
 import "./Styles/Indicators.css";
 import img from "../Assets/Mask group.svg";
+import img1 from '../Assets/Vector.svg';
 
 function Indicators() {
   return (
@@ -29,8 +30,9 @@ function Indicators() {
       </div>
       <div className="content d-flex justify-content-between container">
           <div className="main">
-            <img src={img} alt="" />
+            <img src={img} alt="" className="img"/>
             <div className="circle"></div>
+            <img src={img1} alt="" className="vector"/>
           </div>
           <div className="right-side">
             <h1>Hello</h1>
