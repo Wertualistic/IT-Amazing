@@ -5,7 +5,7 @@ import './Styles/Navbar.css'
 
 function Navbar() {
   return (
-    <nav class="container navbar bg-0">
+    <nav class="navbar bg-ligth">
         <Link class="navbar-brand" to="/">
           <img src={logo} alt="" width="90" />
         </Link>
