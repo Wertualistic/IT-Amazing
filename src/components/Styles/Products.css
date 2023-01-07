@@ -25,7 +25,10 @@
   height: 600px;
   overflow: hidden;
   overflow-y: scroll;
-  
+  scrollbar-width: thin;
+}
+.Product .cards::-webkit-scrollbar{
+  width: 0;
 }
 .card {
   background: #eeeefd;
