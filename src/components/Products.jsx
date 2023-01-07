@@ -26,7 +26,7 @@ function Products() {
         <div className="cards d-flex flex-column gap-3 align-items-start">
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Web <br />
+              <h2>Frontend <br />
                 development</h2>
               <img src={web} alt="" />  
             </div>
@@ -34,12 +34,14 @@ function Products() {
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
           <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Mobile App <br />
+              <h2>Backend <br />
                 development</h2>
               <img src={android} alt="" />  
             </div>
@@ -47,59 +49,68 @@ function Products() {
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
           <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Telegram <br />
-                bot</h2>
+              <h2>Mobile app <br />
+                development</h2>
               <img src={bot} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Web <br />
-                development</h2>
+              <h2>Telegram <br />
+                bot</h2>
               <img src={web} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
           <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Mobile App <br />
-                development</h2>
+              <h2>UI / UX</h2>
               <img src={android} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
           <div className="card card2">
             <div className="web d-flex align-items-center justify-content-between">
-              <h2>Telegram <br />
-                bot</h2>
+              <h2>Social media<br />
+                marketing</h2>
               <img src={bot} alt="" />  
             </div>
             <div className="more d-flex align-items-center gap-1">
               <div className="arrow">
                 <i class="ri-arrow-right-line"> </i>
               </div>
-              Batafsil
+              <Link to='/works' className='detail'>
+                Batafsil 
+              </Link>
             </div>
           </div>
         </div>
