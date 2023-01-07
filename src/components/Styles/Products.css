@@ -49,6 +49,15 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
   width: 120px;
 }
+.more .detail{
+  text-decoration: none;
+  color: black;
+}
+
+.more:hover , .detail:hover{
+  background: #002c65;
+  color: white;
+}
 .arrow {
   background: #002c65;
   color: white;
