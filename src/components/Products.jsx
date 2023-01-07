@@ -23,15 +23,46 @@ function Products() {
           </Link>
       </div>
       <div className="right d-flex align-items-start gap-3 col-md-6">
-        <div className="arrows">
-          <div className="up">
-            <i className='ri-arrow-up-line'></i>
-          </div>
-          <div className="up">
-            <i className='ri-arrow-down-line'></i>
-          </div>
-        </div>
         <div className="cards d-flex flex-column gap-3 align-items-start">
+          <div className="card">
+            <div className="web d-flex align-items-center justify-content-between">
+              <h2>Web <br />
+                development</h2>
+              <img src={web} alt="" />  
+            </div>
+            <div className="more d-flex align-items-center gap-1">
+              <div className="arrow">
+                <i class="ri-arrow-right-line"> </i>
+              </div>
+              Batafsil
+            </div>
+          </div>
+          <div className="card card2">
+            <div className="web d-flex align-items-center justify-content-between">
+              <h2>Mobile App <br />
+                development</h2>
+              <img src={android} alt="" />  
+            </div>
+            <div className="more d-flex align-items-center gap-1">
+              <div className="arrow">
+                <i class="ri-arrow-right-line"> </i>
+              </div>
+              Batafsil
+            </div>
+          </div>
+          <div className="card card2">
+            <div className="web d-flex align-items-center justify-content-between">
+              <h2>Telegram <br />
+                bot</h2>
+              <img src={bot} alt="" />  
+            </div>
+            <div className="more d-flex align-items-center gap-1">
+              <div className="arrow">
+                <i class="ri-arrow-right-line"> </i>
+              </div>
+              Batafsil
+            </div>
+          </div>
           <div className="card">
             <div className="web d-flex align-items-center justify-content-between">
               <h2>Web <br />

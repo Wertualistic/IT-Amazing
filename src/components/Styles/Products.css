@@ -21,6 +21,12 @@
   border-radius: 0.7rem;
   color: white;
 }
+.Product .cards{
+  height: 600px;
+  overflow: hidden;
+  overflow-y: scroll;
+  
+}
 .card {
   background: #eeeefd;
   border: none;
